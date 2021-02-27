@@ -1,0 +1,29 @@
+
+
+GET http://localhost:8000/users/
+
+###
+
+POST  http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "name" :"ibrahim",
+    "age":73,
+    "phone":65465645
+}
+
+###
+
+DELETE http://localhost:8000/users/603a3814ede5b028a4399068
+
+###
+
+PUT http://localhost:8000/users/603a3beb13c33e1f643f9bb6
+Content-Type: application/json
+
+{
+    "name":"Rchid",
+    "age":24,
+    "phone":689498489
+}
